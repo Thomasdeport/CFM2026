@@ -7,6 +7,7 @@ lab/
 *.pt
 scripts/
 __pycache__/
+notebooks/
 submission*.csv
 lab_results.zip
 paper/*.aux
@@ -16,8 +17,7 @@ paper/*.out
 paper/*.loa
 paper/main.pdf
 
-# Notebooks : gardés en local, régénérables via scripts/make_notebook*.py
-*.ipynb
+
 .ipynb_checkpoints/
 
 # Probabilités test du professeur (privées) : envoyées sur Kaggle, jamais commitées
